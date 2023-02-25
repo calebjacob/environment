@@ -9,9 +9,10 @@ My preferred environment configs for local development (shell config and theming
 brew install zsh
 brew install autojump
 brew install nvm
+brew install git
 ```
 
-https://brew.sh/
-https://github.com/ohmyzsh/ohmyzsh/wiki/Installing-ZSH#how-to-install-zsh-on-many-platforms
-https://ohmyz.sh/#install
-
+- https://brew.sh/
+- https://github.com/ohmyzsh/ohmyzsh/wiki/Installing-ZSH#how-to-install-zsh-on-many-platforms
+- https://ohmyz.sh/#install
+- https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent
