@@ -7,6 +7,10 @@ My preferred environment configs for local development (shell config and theming
 
 ```
 brew install zsh
+brew install autojump
+brew install nvm
 ```
 
 https://github.com/ohmyzsh/ohmyzsh/wiki/Installing-ZSH#how-to-install-zsh-on-many-platforms
+https://ohmyz.sh/#install
+
