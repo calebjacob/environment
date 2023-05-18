@@ -30,3 +30,5 @@ load-nvmrc() {
 }
 add-zsh-hook chpwd load-nvmrc
 load-nvmrc
+
+alias gitbranchclear="git branch | grep -v 'develop' | grep -v 'master' | grep -v 'main' | xargs git branch -D"
