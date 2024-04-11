@@ -31,5 +31,6 @@ load-nvmrc() {
 add-zsh-hook chpwd load-nvmrc
 load-nvmrc
 
-alias gitbranchdeletedangerous="git branch | grep -v 'develop' | grep -v 'master' | grep -v 'main' | xargs git branch -D"
-alias gitbranchdeletemerged="git branch --merged | grep -v \* | xargs git branch -D "
+alias git-dangerously-prune-branches="git branch | grep -v 'develop' | grep -v 'master' | grep -v 'main' | xargs git branch -D"
+alias git-prune-merged-branches="git branch --merged | grep -v \* | xargs git branch -D"
+alias git-hard-reset="git clean -fd && git reset --hard"
